@@ -1,10 +1,10 @@
 [
     {
-        "name": "confirmFunc",
+        "name": "resetFunc",
         "private": true
     },
     {
-        "name": "resetFunc",
+        "name": "confirmFunc",
         "private": true
     }
 ]
