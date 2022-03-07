@@ -1,0 +1,40 @@
+{
+    "collection": "musimundos",
+    "database": "musicas",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "userId": "%%user.id"
+            },
+            "fields": {
+                "album": {},
+                "compositor": {},
+                "genero": {},
+                "musica": {}
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "non-owner",
+            "apply_when": {},
+            "fields": {
+                "album": {},
+                "compositor": {},
+                "genero": {},
+                "musica": {}
+            },
+            "read": true,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
