@@ -7,6 +7,9 @@
             "apply_when": {
                 "_id": "%%user.id"
             },
+            "fields": {
+                "musica": {}
+            },
             "read": true,
             "write": true,
             "insert": true,
