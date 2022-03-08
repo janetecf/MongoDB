@@ -1,1 +1,8 @@
-{}
+{
+    "musica": {
+        "ref": "#/relationship/mongodb-atlas/sample_analytics/customers",
+        "source_key": "musica",
+        "foreign_key": "name",
+        "is_list": false
+    }
+}
