@@ -40,7 +40,7 @@ const busca_musica = async () => {
     musicas_div.empty();
 
     // Loop through the 20 movie title and display them in the movies div.
-    for (const musica of musimundos_musicas) {
+    for (const musicas of musimundos_musicas) {
         let p = document.createElement("p");
         p.append(musimundos.musica);
         musicas_div.append(p);
