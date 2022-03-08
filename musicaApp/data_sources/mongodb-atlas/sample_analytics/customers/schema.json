@@ -1,0 +1,377 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accounts": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "active": {
+            "bsonType": "bool"
+        },
+        "address": {
+            "bsonType": "string"
+        },
+        "birthdate": {
+            "bsonType": "date"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "tier_and_details": {
+            "bsonType": "object",
+            "properties": {
+                "069f84c793a14fa891f716cf09314062": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "0df078f33aa74a2e9696e0520c1a828a": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "142ac5781d314f659023117057488a6c": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "1c6679a4fda54e5d9126128711d682da": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "508e6a9ea7a64740a06817764e9e5e72": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "699456451cc24f028d2aa99d7534c219": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "6e3ff5a1c5a94758b86326284412ba67": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "9239d9520c4641d2b4ea66333b9c54b4": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "931a8fb507584aa1ab3a96ebcc5f27cc": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "9dce685653fc451ab69082ec77c8d1ab": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "a816e1d6537f4fb18a3f165151206798": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "ceef1c11d473477e8aa9879a468b4108": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "e58e4ac9e1734d6f9014c6eb88027dae": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "ea3055576ad346aeabd2bc89a0068619": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "f07f745fd4864b57897182a34303c302": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "f6c0be1f3e1a4b88b0596c74dc3b7ce0": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                },
+                "ff074044a60c40e7845f3682800d4475": {
+                    "bsonType": "object",
+                    "properties": {
+                        "active": {
+                            "bsonType": "bool"
+                        },
+                        "benefits": {
+                            "bsonType": "array",
+                            "items": {
+                                "bsonType": "string"
+                            }
+                        },
+                        "id": {
+                            "bsonType": "string"
+                        },
+                        "tier": {
+                            "bsonType": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "username": {
+            "bsonType": "string"
+        }
+    },
+    "title": "customer"
+}
