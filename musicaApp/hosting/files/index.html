@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="https://www.mongodb.com/assets./images/global/favicon.ico"/>
+    <script src="https://unpkg.com/realm-web@1.2.0/dist/bundle.iife.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Minhsa Musicas Favoritas</title>
+</head>
+<body>
+<h1>Minhas Músicas</h1>
+<div>
+    <!-- Login anonymously -->
+    <input type="submit" value="LOGIN" onClick="login()">
+    <!-- pegar as primeiras 20 musicas do banco de dados musicas -->
+    <input type="submit" value="FIND 20 MUSICAS" onClick="find_musica()">
+</div>
+<!-- Using this div to display the user ID -->
+<div id="user"></div>
+<!-- Using this div to show the 20 musicas titles -->
+<div id="movies"></div>
+<!-- Inside this file are the functions used above: login() and find_musica() -->
+<script src="data.js"></script>
+</body>
+</html>
