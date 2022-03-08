@@ -13,21 +13,21 @@ const login = async () => {
     }
 };
 
-// Function executed by the "Listar 20 Musicas" button.
-const find_musica = async () => {
-    let collmusicas;
+// Function executed by the "FIND 20 MOVIES" button.
+const busca_musica = async () => {
+    let pegaMusicas;
     try {
-        // Access the musicas collection through MDB Realm & the readonly rule.
+        // Access the movies collection through MDB Realm & the readonly rule.
         const mongodb = app.currentUser.mongoClient(ATLAS_SERVICE);
-        collmusicas = mongodb.db("musicas").collection("musimundos");
+        pegaMusicas = mongodb.db("musicas").collection("musimundos");
     } catch (err) {
-        $("#user").append("Need to login first.");
-        console.error("Need to log in first", err);
+        $("#user").append("É preciso efetuar o login.");
+        console.error("É preciso efetuar o login", err);
         return;
     }
 
-    // Retrieve 20 musicas titles (only the titles thanks to the projection).
-    const musicas_titles = await collMusicas.find({}, {
+    // Retrieve 20 movie titles (only the titles thanks to the projection).
+    const musimundos_musicas = await pegaMusicas.find({}, {
         "projection": {
             "_id": 0,
             "musica": 1
@@ -35,14 +35,14 @@ const find_musica = async () => {
         "limit": 20
     });
 
-    // Access the musica div and clear it.
+    // Access the movies div and clear it.
     let musicas_div = $("#musicas");
     musicas_div.empty();
 
-    // Loop through the 20 musica title and display them in the musicas div.
-    for (const musica of musicas_titles) {
+    // Loop through the 20 movie title and display them in the movies div.
+    for (const musica of musimundos_musicas) {
         let p = document.createElement("p");
-        p.append(musica.title);
+        p.append(musimundos.musica);
         musicas_div.append(p);
     }
 };
