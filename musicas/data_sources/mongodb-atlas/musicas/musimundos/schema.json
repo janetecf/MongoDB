@@ -1,0 +1,20 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "int"
+        },
+        "album": {
+            "bsonType": "string"
+        },
+        "compositor": {
+            "bsonType": "string"
+        },
+        "genero": {
+            "bsonType": "string"
+        },
+        "musica": {
+            "bsonType": "string"
+        }
+    },
+    "title": "musimundo"
+}
